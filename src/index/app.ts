@@ -98,7 +98,7 @@ refreshGeoJSON.onclick = () => {
   }
 
   layer = new GeoJSONLayer({
-    url: "./results.geojson",
+    url: "http://20.56.66.62:5000/getAllData",
     renderer
   });
   map.add(layer);
